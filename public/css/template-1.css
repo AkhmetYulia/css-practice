@@ -10,6 +10,8 @@
 
 .header{
 padding: 24px;
+
+border-bottom: 1px solid #DEE2E6;
 }
 
 .logo{
@@ -36,6 +38,7 @@ text-decoration: none;
 .nav_link:hover{
     text-decoration: underline;
     color: blueviolet;
+    opacity: 50%;
 }
 
 .nav_vertical > .nav_link{
@@ -61,6 +64,7 @@ margin-bottom: 80px;
 
 .footer{
     padding: 24px 0;
+    border-top: 1px solid #DEE2E6;
 }
 
 .footer_copyright{
@@ -91,6 +95,7 @@ margin-bottom: 12px;
     text-align: center;
     max-width: 585px;
     margin: 0 auto;
+    line-height: 150%px;
 }
 
 .plans_card:not(:last-of-type){
@@ -142,4 +147,73 @@ color:#6c757d;
     width: 100%;
     font-size: 19px;
     padding: 9px;
+}
+
+.card{
+    border: 2px solid red;
+    border-radius: 15px 50px;
+    box-shadow: 5px 5px 10px 1px rgba(116, 169, 225, 0.254);
+}
+
+.card:hover{
+    outline: 2px solid blue;
+    outline-offset: 5px;
+}
+
+.btn{
+    border-radius: 25px;
+}
+
+.h1 {
+    text-shadow: 0px 0px 10px rgba(255, 0, 0, 0.221);
+}
+
+.plans_card:nth-child(2)>.card{
+    background: red;
+}
+
+
+body {
+    background-image: radial-gradient(
+        45deg, top left, #f8cdd4 0%, #f1a7c8 50%, #e86f9e 100%;
+    );
+}
+
+.page {
+background-image: url('/img/test2.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.card_block {
+    list-style-type: circle;
+    list-style-image: linear-gradient(
+        to bottom right,
+        blue,
+        red
+    );
+}
+
+.card_description_item {
+    display: list-item;
+}
+
+/* .table tr {
+    border: 1px solid #343A40;
+} */
+
+.table tr td {
+    border: 1px solid #343A40;
+    border-bottom-color: red;
+    border-right-color: blue;
+}
+
+.table {
+    table-layout: auto;
+    width: 200px;
+    border-collapse: unset;
+    border-spacing: 10px;
+    caption-side: top;
 }
