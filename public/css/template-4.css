@@ -100,40 +100,57 @@ margin-bottom: var(--space-l);
 font-weight: var(--width-title);
 }
 
-.hero {
+.main {
     display: flex;
-    align-items: ;
+    align-items: center;
     gap: var(--space-b);
     padding: var(--space-b);
     border-bottom: 1px solid var(--color-border);
 }
 
-.hero_image {
+.main_image {
 width: 500px;
 height: 500px;
 border-radius: var(--border-radius);
 }
 
-.hero_content {
+.main_content {
     display: flex;
     flex-direction: column;
     gap: var(--space-l);
 }
 
-.hero_title {
+.main_heading {
     font-size: 50px;
     color: var(--color-title);
     font-weight: var(--width-title);
     line-height: 120%;
 }
-.hero_text {
+.main_descriotion {
     font-size: 20px;
     color: var(--color-text);
     font-weight: var(--weight-text);
     line-height: 170%;
 }
 
-.blog {
+.button {
+    display: block;
+    font-size: var(--size-d);
+    text-decoration: none;
+    padding: var(--space-m) var(--space-xm);
+    border-radius: var(--border-radius);
+    }
+    
+    .main_button {
+        color: var(--color-white);
+        background-color: var(--color-primary);
+    }
+    
+    .button:hover {
+        opacity: 0.7;
+    }
+
+.featured {
     display: flex;
     gap: var(--space-b);
     padding: var(--space-b);
@@ -148,67 +165,44 @@ border-radius: var(--border-radius);
     gap: var(--space-l);
 }
 
-.card_image {
+.card_photo {
     height: 140px;
     width: 140px;
     border-radius: 50%;
 }
 
-.card_title {
+.card_featured {
     font-size: var(--space-b);
     font-weight: var(--width-title);
 }
 
-.card_text {
+.card_info {
     font-weight: var(--weight-text);
 font-size: var(--size-d);
 color: var(--color-text);
 }
 
-.button {
-display: inline-block;
-font-size: var(--size-d);
-text-decoration: none;
-padding: var(--space-m) var(--space-xm);
-border-radius: var(--border-radius);
-}
-
-.card_button {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-}
-
-.button:hover {
-    opacity: 0.7;
-}
-
-.form {
+.actions {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background: var(--color-primary);
     padding: var(--space-l);
     border-radius: var(--border-radius);
 }
 
-.form_content {
+.actions_content {
     display: flex;
     flex-direction: column;
     gap: var(--space-m);
 }
 
-.form_title {
+.actions_heading {
     font-size: 27px;
     font-weight: var(--width-title);
     color: var(--color-white);
 }
 
-.form_info {
-    font-size: var(--size-d);
-    font-weight: ;
-}
-
-.form_button {
+.actions_url {
   background-color: var(--color-white);
   width: 100%;
   max-width: 100px;
