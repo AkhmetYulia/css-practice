@@ -47,7 +47,7 @@ justify-content: space-between;
     background: var(--color-primary);
     width: var(--space-l);
     height: var(--space-l);
-    border-radius: calc(var(--border-radius)/2);
+    border-radius-d: calc(var(--border-radius)/2);
     display: flex;
     justify-content: center;
     align-items: center;
