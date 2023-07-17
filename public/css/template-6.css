@@ -58,7 +58,7 @@ justify-content: space-between;
     background: var(--color-primary);
     width: var(--space-l);
     height: var(--space-l);
-    border-radius-d: calc(var(--border-radius-d)/2);
+    border-radius: calc(var(--border-radius-d)/2);
     display: flex;
     justify-content: center;
     align-items: center;
