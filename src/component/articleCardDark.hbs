@@ -1,0 +1,28 @@
+{{#with data}}
+
+<div class='articleCadrDard'>
+
+    <div class='articles_item'>
+        <div id='articles_item_{{id}}'></div>
+        <img src='{{photo}}' alt='article image' class='articles_image'>
+        <h4 class='articles_name'>{{name}}</h4>
+        <p class='articles_description'>{{description}}</p>
+    </div>
+
+    <button class='articles_read_button button_animation'>Read All</button>
+</div>
+
+{{/with}}
+
+{{!-- <div class="card">
+    {{#each articles}}
+    <div class="card_content">
+        <div class="card_photo">
+            {{id}}
+            <img src="{{photo}}" alt="card photo" class="card_photo">
+        </div>
+        <h2 class="card_name">{{name}}</h2>
+        <p class="card_text">{{description}}</p>
+    </div>
+    {{/each}}
+</div> --}}
