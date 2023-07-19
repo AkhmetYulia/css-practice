@@ -23,8 +23,10 @@
     {{/with}}
 </div>
 
-{{#each articles}}
-{{> articleCardDark data=this}}
-{{/each}}
+<div class="art">
+    {{#each articles}}
+    {{> articleCardDark data=this}}
+    {{/each}}
+</div>
 
 {{> footerDark data=footer}}
